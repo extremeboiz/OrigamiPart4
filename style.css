@@ -1,0 +1,58 @@
+h1 {
+    color: white;
+}
+
+.header *{
+    border: solid;
+    margin-left: 50px;
+} 
+
+.menu *{
+    border:solid;
+}
+
+.header{
+    background-color: rgb(57, 153, 156);
+    display: flex;
+    justify-content: center;
+    padding-right: 60px;
+}
+
+.menu{
+    background-color: rgb(57, 153, 156);
+    display: flex;
+    justify-content: space-evenly;
+    font-size:30px;
+}
+
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+p,h2{
+    text-align: center;
+}
+body{
+    background-image: url(https://t4.ftcdn.net/jpg/03/14/41/45/360_F_314414529_aJh5D8Rv5CtpBNCkcrtJy8HpizpSPbop.jpg);
+}
+
+a:link{
+    color: black;
+}
+
+a:visited{
+    color: black;
+}
